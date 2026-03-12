@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Calculadora de Razão, Proporção e Porcentagem</h1>
+
+<div class="container">
+
+<h2>Razão</h2>
+
+<input id="r1" placeholder="A" required>
+<input id="r2" placeholder="B" required>
+
+<br><br>
+
+<button onclick="Razao()">Calcular</button>
+
+<p id="resRazao" class="resultado"></p>
+
+</div>
+
+<div class="container">
+
+<h2>Regra de 3</h2>
+
+<input id="a" placeholder="A" required>
+<input id="b" placeholder="B" required>
+<input id="c" placeholder="C" required>
+
+<br><br>
+
+<button onclick="Regra3()">Calcular X</button>
+
+<p id="resRegra" class="resultado"></p>
+
+</div>
+
+<div class="container">
+
+<h2>Porcentagem</h2>
+
+<input id="p" placeholder="%" required>
+<input id="n" placeholder="Número" required>
+
+<br><br>
+
+<button onclick="Porcentagem()">Calcular</button>
+
+<p id="resPorcentagem" class="resultado"></p>
+
+</div>
+
+<div class="container">
+
+<h2>Aumento Percentual</h2>
+
+<input id="valorAumento" placeholder="Valor" required>
+<input id="percAumento" placeholder="%" required>
+
+<br><br>
+
+<button onclick="Aumento()">Calcular</button>
+
+<p id="resAumento" class="resultado"></p>
+
+</div>
+
+<div class="container">
+
+<h2>Desconto</h2>
+
+<input id="valorDesconto" placeholder="Valor" required>
+<input id="percDesconto" placeholder="%" required>
+
+<br><br>
+
+<button onclick="Desconto()">Calcular</button>
+
+<p id="resDesconto" class="resultado"></p>
+
+</div>
+
+<div class="container">
+
+<h2>PHS 🧡</h2>
+<br>
+
+<img src="fabiano.jpg" alt="" width="250px" id="fabiano">
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
